@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-01T10:55:06 IST" name="Default suite" finished-at="2024-04-01T10:56:22 IST" duration-ms="76797">
+    <groups>
+      <group name="@regression">
+        <method signature="TestCases.vcerifyValidLogin()[pri:0, instance:com.eva.zohoCRM.testCases.TestCases@6150c3ec]" name="vcerifyValidLogin" class="com.eva.zohoCRM.testCases.TestCases"/>
+      </group> <!-- @regression -->
+    </groups>
+    <test started-at="2024-04-01T10:55:06 IST" name="Default test" finished-at="2024-04-01T10:56:22 IST" duration-ms="76797">
+      <class name="com.eva.zohoCRM.testCases.TestCases">
+        <test-method is-config="true" signature="creteReports()[pri:0, instance:com.eva.zohoCRM.testCases.TestCases@6150c3ec]" started-at="2024-04-01T10:55:06 IST" name="creteReports" finished-at="2024-04-01T10:55:06 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creteReports -->
+        <test-method signature="vcerifyValidLogin()[pri:0, instance:com.eva.zohoCRM.testCases.TestCases@6150c3ec]" started-at="2024-04-01T10:55:06 IST" name="vcerifyValidLogin" finished-at="2024-04-01T10:56:19 IST" duration-ms="72863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vcerifyValidLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.eva.zohoCRM.testCases.TestCases@6150c3ec]" started-at="2024-04-01T10:56:19 IST" name="teardown" finished-at="2024-04-01T10:56:22 IST" duration-ms="3393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vcerifyValidLogin status=SUCCESS method=TestCases.vcerifyValidLogin()[pri:0, instance:com.eva.zohoCRM.testCases.TestCases@6150c3ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.eva.zohoCRM.testCases.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
