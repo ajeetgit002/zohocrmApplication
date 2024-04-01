@@ -24,7 +24,7 @@ public class TestCases {
 	public void vcerifyValidLogin() {
 
 		ut.createTestReport("vcerifyValidLogin");
-		WebDriver driver = ut.getDriver("chrome");
+		WebDriver driver = ut.getDriver("firefox");
 
 		LoginPage lo = new LoginPage(ut, driver);
 		lo.openUrl();
